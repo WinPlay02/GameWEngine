@@ -7,11 +7,13 @@ It's used to measure the progress of the engine.
 
 ## Information
 
++ C++/C with a few assembler instructions
 + The engine is totally written from scratch
 + OpenGL is used
 + 32 and 64 bits are supportet
-+ At the moment Windows and Linux is supportet, but support for macOS is planned for the future
++ At the moment Windows and Linux is supported, but support for macOS is planned for the future
 + BulletPhysics is used as a physics framework
 + libVLC is used to display videos, but it should get replaced with ffmpeg in the future
 + SDL2 is used to obtain an opengl-context and create the window
 + GLFW support is integrated aswell (historical reasons)
++ The engine only supports the gcc compiler (even on windows: mingw-w64); GCC 6.3
